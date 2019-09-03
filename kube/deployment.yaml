@@ -15,5 +15,6 @@ spec:
       containers:
       - name: kubernetes-tutorial-application
         image: anyonecantest/test100
+        imagePullPolicy: Always
         ports:
           - containerPort: 8000
