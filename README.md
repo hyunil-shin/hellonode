@@ -14,3 +14,7 @@ kubectl get pods
 kubectl apply -f service.yaml
 kubectl get services
 ```
+
+
+# 참고
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/#deleting-resources
